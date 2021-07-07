@@ -1,0 +1,142 @@
+@charset "utf-8";
+
+*
+{
+margin:0px ;
+padding:0px;
+}
+body{
+	background:url("fon.jpg") no-repeat;	
+	background-size: cover;
+}
+
+.syte-header{
+	
+	font-family:helvetica,"monospace";
+	box-shadow: 0px 13px 17px -6px #ffffff;
+}
+.syte-header h1 {
+	color:rgba(255,255,255,1);
+	margin: 0px;
+	padding-left: 600px;
+	font-size: 35px; 
+	font-weight: 300;
+}
+/*#kon{
+	padding-left: 650px;
+	font-weight: 600;
+	font-family:Verdana, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+} */
+.myclass{
+	color:rgba(255,255,255,1);
+	padding-left: 170px;
+	font-size: 45px;
+	font-weight: 400;
+	font-family: Helvetica, "monospace";
+}
+
+.spisok {
+list-style: none;
+margin: 0;
+}
+.spisok a {
+width: 100%;
+color: rgba(255,255,255,1);
+text-decoration: none;
+display: inline-block;
+padding-left: 150px;
+height: 44px;
+line-height: 44px;
+font-size: 30px;
+font-weight: 400;
+position: relative;
+transition: .3s linear;
+font-family:Helvetica, "monospace";
+}
+.spisok a:before {
+content: "";
+width: 30px;
+height: 30px;
+border-radius: 50%;
+background: rgba(255,255,255,1);
+position: absolute;
+left: -30px;
+top: 7px;
+}
+.spisok a:hover {
+	color:rgba(60, 86, 189, 1);
+}
+
+.myschool{
+	
+	color:rgba(255,255,255,1);
+	font-family:Helvetica, "monospace";
+	font-size: 20px;
+	padding-left: 100px;
+	font-weight: 300;
+}
+
+#nazad ul{
+	padding: 0;
+	padding-left: 20px;
+	
+
+}
+
+#nazad ul li{
+	list-style: none;
+	display: inline;
+	
+}
+
+#nazad ul li a{
+	text-decoration: none;
+	font-family:Helvetica, "monospace";
+	font-size: 20px;
+	font-weight: 500;
+	color:rgba(255,255,255,1);
+}
+
+#nazad ul li a:hover{
+	color:rgba(60, 86, 189, 1);
+}
+
+img{
+    max-width: 45%;
+    height: auto;
+	float: right;
+}
+
+table{
+	border-collapse: collapse;
+	border: 3px solid rgba(255,255,255,1);
+	margin: 0 auto;
+}
+
+th {
+   border: 2px solid rgba(255,255,255,1);
+}
+
+td{
+	 border: 2px solid rgba(255,255,255,1);
+}
+
+table td:first-child {
+	text-align: center;
+}
+
+#vpered ul{
+	list-style:square;
+	display:table-cell;
+}
+
+#vpered ul{
+	padding: 0;
+	padding-left: 20px;
+
+}
+
+footer{
+	position:fixed;
+	top: 85%;
+}
